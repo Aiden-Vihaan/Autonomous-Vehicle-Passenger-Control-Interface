@@ -1,212 +1,142 @@
-# Research Questions
+Research Questions
 
-## Project
+Purpose
 
-**Autonomous Vehicle Passenger Control Interface**
+This document defines the research questions for the Human Factors investigation of the Autonomous Vehicle Passenger Control Interface.
 
-## Research Area
+The research questions were refined after reviewing literature concerning:
 
-Human Factors, Human-Computer Interaction, Explainable AI, Trust in Automation, Autonomous Vehicle Passenger Experience
+- Explainable AI
+- Trust in autonomous vehicles
+- Explanation timing
+- Explanation type
+- Situation awareness
+- Passenger interaction
+- Cognitive workload
+- Multimodal explanations
+- Unexpected autonomous-vehicle behaviour
 
----
+The questions are intentionally narrower than the overall product scope.
 
-## Research Context
+The purpose is not to determine whether explainability is universally beneficial.
 
-Highly automated vehicles require passengers to interact with systems that make decisions and perform driving-related actions with limited or no direct human control.
+Instead, the project investigates:
 
-In these environments, passengers may need to understand what the autonomous system is doing, why it is doing it, and whether they need to take any action. This becomes particularly important during unexpected events, changes in vehicle behaviour, uncertainty, and safety-relevant situations.
-
-A passenger interface therefore needs to communicate system behaviour in a way that supports understanding without unnecessarily increasing cognitive workload.
-
-This project focuses on the role of explainable AI (XAI) within the passenger interface and investigates whether contextual explanations can improve the passenger's understanding of autonomous vehicle behaviour while maintaining appropriate trust and manageable workload.
-
----
-
-# Primary Research Question
-
-> **How does explainable AI feedback influence passenger understanding, trust, perceived workload, and interaction performance during unexpected events in a highly automated vehicle?**
+«Under what interaction conditions can explanations improve passenger understanding and trust without creating unnecessary cognitive demand?»
 
 ---
 
-# Secondary Research Questions
+Primary Research Question
 
-### RQ1 — Understanding
+RQ1
 
-> Does contextual explanation improve passenger understanding of autonomous vehicle behaviour compared with minimal or no explanation?
+How does the presentation of explanations for unexpected autonomous-vehicle behaviour affect passenger understanding, trust, and cognitive workload?
 
-### RQ2 — Trust
-
-> How does the level of explanation influence passenger trust and trust calibration toward the autonomous vehicle?
-
-### RQ3 — Workload
-
-> Does providing additional contextual information increase perceived cognitive workload during unexpected events?
-
-### RQ4 — Interaction Performance
-
-> Does contextual explanation influence the speed, accuracy, and success of passenger interactions during unexpected events?
-
-### RQ5 — Explanation Design
-
-> How should explanations be presented so that they provide meaningful context without overwhelming the passenger?
-
-### RQ6 — Safety-Relevant Communication
-
-> How can autonomous vehicle explanations communicate unexpected or safety-relevant events clearly enough to support appropriate passenger action?
+This is the primary research question guiding the experimental design.
 
 ---
 
-# Research Variables
+Secondary Research Questions
 
-## Independent Variable
+RQ2 — Explanation Presence
 
-The primary independent variable is the **type and level of AI explanation** presented to the passenger.
-
-The initial experimental concept contains three explanation conditions:
-
-### Condition A — No Explanation
-
-The interface communicates the vehicle's current behaviour without providing a reason.
-
-Example:
-
-> Vehicle slowing.
-
-### Condition B — Basic Explanation
-
-The interface provides a short explanation of the vehicle's behaviour.
-
-Example:
-
-> Slowing for pedestrian.
-
-### Condition C — Contextual Explanation
-
-The interface provides a concise explanation containing both the relevant event and the resulting vehicle action.
-
-Example:
-
-> Pedestrian entering the crossing ahead. Slowing to maintain a safe distance.
-
-The exact wording and presentation of these conditions may be refined during prototype development and pilot evaluation.
+Does providing an explanation improve passenger understanding compared with providing no explanation?
 
 ---
 
-# Dependent Variables
+RQ3 — Explanation Specificity
 
-The evaluation may examine the following outcomes:
-
-### 1. Comprehension
-
-The passenger's ability to correctly understand the autonomous vehicle's behaviour and reason for that behaviour.
-
-Possible measures:
-
-- Comprehension accuracy
-- Correct identification of vehicle intent
-- Correct interpretation of the environmental event
-
-### 2. Interaction Performance
-
-The passenger's ability to complete a required interface task.
-
-Possible measures:
-
-- Task completion
-- Response time
-- Interaction errors
-- Incorrect actions
-
-### 3. Trust
-
-The passenger's perceived trust in the autonomous system and whether that trust is appropriately calibrated to the system's behaviour.
-
-### 4. Perceived Workload
-
-The passenger's perceived cognitive workload while interpreting the interface and responding to the situation.
-
-### 5. Perceived Transparency
-
-The passenger's perception of how clearly the system communicates its behaviour and reasoning.
+Does a contextual explanation produce better understanding and trust calibration than a minimal explanation?
 
 ---
 
-# Scope of Investigation
+RQ4 — Explanation Timing
 
-The research will focus on passenger interaction with autonomous vehicle behaviour rather than evaluating the underlying autonomous-driving technology itself.
+Does providing an explanation before the vehicle performs an unexpected action produce better outcomes than providing the explanation after the action?
 
-The study will investigate the **human-system interaction layer**, particularly the communication between an autonomous vehicle and its passenger.
+This question is supported by previous AV research indicating that explanation timing can influence trust and preference. Du et al. reported that explanations provided before an AV acted were more effective than explanations provided after the action.
 
-The project will not attempt to validate:
+---
+
+RQ5 — Context and Risk
+
+Does the effectiveness of an explanation change according to the perceived risk or urgency of the autonomous-vehicle situation?
+
+Previous research found that perceived risk moderated the relationship between explanation type and trust.
+
+---
+
+RQ6 — Passenger Context
+
+Does passenger engagement in a non-driving-related task affect the usefulness of visual, auditory, or multimodal explanations?
+
+This question is motivated by recent passenger-focused research showing that explanation effectiveness can differ depending on whether passengers are engaged in non-driving-related tasks.
+
+---
+
+Research Boundaries
+
+The study will focus on:
+
+- Passenger interaction
+- Highly automated/autonomous vehicles
+- Unexpected vehicle behaviour
+- Explainable interface feedback
+- Trust
+- Understanding
+- Situation awareness
+- Cognitive workload
+- Interaction performance
+
+The study will not attempt to evaluate:
 
 - Autonomous driving algorithms
-- Vehicle perception accuracy
-- Real-world driving safety
-- Vehicle control systems
-- Production autonomous vehicle performance
-- Regulatory or functional-safety certification
+- Vehicle control performance
+- Sensor accuracy
+- Production safety certification
+- ISO 26262 compliance
+- Real-world autonomous driving safety
+
+The interface is therefore treated as a human-facing interaction layer rather than as an evaluation of the underlying autonomous-driving system.
 
 ---
 
-# Research Direction
+Research Model
 
-The central research direction is the relationship between:
+The preliminary research model is:
 
-**Autonomous Vehicle Behaviour**
+Explanation Design
+       │
+       ├── Presence
+       ├── Specificity
+       ├── Timing
+       └── Modality
+              ↓
+      Passenger Perception
+              ↓
+      Understanding / SA
+              ↓
+      Trust Calibration
+              ↓
+      Interaction Behaviour
 
-↓
-
-**AI Explanation**
-
-↓
-
-**Passenger Understanding**
-
-↓
-
-**Trust / Workload**
-
-↓
-
-**Passenger Interaction**
-
-The project will explore whether carefully designed explanations can provide enough information to support passenger understanding while maintaining a calm and usable interaction experience.
-
----
-
-# Expected Research Contribution
-
-The project aims to contribute:
-
-1. A structured framework for explainable passenger communication in highly automated vehicles.
-2. A set of interface patterns for communicating autonomous vehicle intent.
-3. An experimental comparison of different explanation levels.
-4. Evidence regarding the relationship between explanation, comprehension, trust, workload, and interaction performance.
-5. Human Factors recommendations for designing passenger-facing autonomous vehicle interfaces.
+Explanation Design ─────────→ Cognitive Workload
+Passenger Context ───────────→ modifies these relationships
+Risk / Urgency ──────────────→ modifies these relationships
 
 ---
 
-# Research Integrity
+Expected Contribution
 
-The research questions are intentionally defined before the final evaluation results are known.
+The project aims to identify design conditions under which explanations are:
 
-No conclusions about the effectiveness of any explanation condition will be presented until appropriate evaluation has been conducted.
+- understandable,
+- timely,
+- useful,
+- cognitively appropriate,
+- supportive of calibrated trust,
+- and appropriate for passengers rather than drivers.
 
-The project will distinguish between:
+The project does not assume that explanations are inherently beneficial.
 
-- Design assumptions
-- Hypotheses
-- Prototype behaviour
-- Observed participant behaviour
-- Research findings
-- Interpretation
-
-No unsupported claims of production safety, regulatory compliance, or autonomous vehicle certification will be made.
-
----
-
-## Status
-
-**Research questions: Initial definition**
-
-The research questions may be refined if literature review, pilot testing, or methodological analysis demonstrates that clarification is necessary. Any substantive changes will be recorded in the project decision log.
+Their effectiveness will be treated as an empirical question.
