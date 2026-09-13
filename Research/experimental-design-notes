@@ -1,0 +1,173 @@
+Experimental Design Notes
+
+Current Objective
+
+Determine the smallest rigorous experimental design capable of answering the project's primary research question.
+
+---
+
+Core Experimental Principle
+
+The vehicle scenario should remain as constant as possible between conditions.
+
+The main difference should be the explanation design.
+
+For example:
+
+Same scenario
+Same vehicle action
+Same visual environment
+Same task
+Same event timing
+
+        ↓
+
+Different explanation condition
+
+This improves internal validity.
+
+---
+
+Candidate Experiment A
+
+Explanation Presence
+
+Condition A
+
+No explanation.
+
+Condition B
+
+Minimal explanation.
+
+Example:
+
+«"Slowing for pedestrian."»
+
+Condition C
+
+Contextual explanation.
+
+Example:
+
+«"Pedestrian entering the crossing ahead. Slowing to maintain a safe distance."»
+
+---
+
+Candidate Experiment B
+
+Explanation Timing
+
+Condition A
+
+Pre-action explanation.
+
+Condition B
+
+Post-action explanation.
+
+Condition C
+
+No explanation.
+
+This design is directly informed by prior AV research on explanation timing.
+
+---
+
+Candidate Experiment C
+
+Explanation Modality
+
+Condition A
+
+Visual.
+
+Condition B
+
+Auditory.
+
+Condition C
+
+Visual + auditory.
+
+However, this design may require more participants and greater experimental complexity.
+
+Therefore it should not be selected automatically.
+
+---
+
+Current Recommendation
+
+The project should initially prioritize:
+
+Explanation presence/specificity
+
+or:
+
+Explanation timing
+
+rather than simultaneously manipulating:
+
+- specificity,
+- timing,
+- modality,
+- risk,
+- passenger activity.
+
+A study with too many independent variables may become difficult to execute rigorously within the project timeline.
+
+---
+
+Proposed Experimental Logic
+
+Participant
+    ↓
+Baseline / Familiarization
+    ↓
+Scenario
+    ↓
+Unexpected AV Event
+    ↓
+Explanation Condition
+    ↓
+Passenger Response
+    ↓
+Comprehension
+    ↓
+Trust
+    ↓
+Workload
+    ↓
+Post-condition questionnaire
+
+---
+
+Pilot Requirement
+
+Before the main study:
+
+1. Prototype should be tested technically.
+2. Scenario wording should be checked.
+3. Explanation length should be checked.
+4. Comprehension questions should be tested.
+5. Timing should be verified.
+6. Participants should confirm that instructions are understandable.
+
+Pilot data should not automatically be merged with the final dataset.
+
+The decision to include or exclude pilot data will be documented before the main analysis.
+
+---
+
+Experimental Integrity
+
+The final design will specify in advance:
+
+- Independent variables
+- Dependent variables
+- Hypotheses
+- Exclusion criteria
+- Analysis approach
+- Primary outcomes
+
+This reduces the risk of changing hypotheses after observing results.
