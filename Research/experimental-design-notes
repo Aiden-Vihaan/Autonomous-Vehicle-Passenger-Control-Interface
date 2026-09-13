@@ -171,3 +171,428 @@ The final design will specify in advance:
 - Primary outcomes
 
 This reduces the risk of changing hypotheses after observing results.
+
+Experimental Design
+
+Project: Autonomous Vehicle Passenger Control Interface
+Research Focus: Explainable feedback for unexpected autonomous-vehicle behaviour
+Status: Experimental design v1
+Date: 22 September 2026
+
+---
+
+1. Purpose
+
+The purpose of the experimental design is to determine how explanations presented by an autonomous-vehicle passenger interface influence passenger understanding, trust, cognitive workload, and interaction performance during unexpected vehicle behaviour.
+
+The design is derived from the literature review, theoretical framework, research questions, hypotheses, and measurement framework established during the preceding project stages.
+
+The experiment is intended to evaluate the passenger-facing interface rather than the autonomous-driving system itself.
+
+The study therefore treats autonomous-vehicle behaviour as a controlled experimental stimulus and manipulates the information presented to the passenger.
+
+---
+
+2. Primary Research Question
+
+«How does the presentation of explanations for unexpected autonomous-vehicle behaviour affect passenger understanding, trust, and cognitive workload?»
+
+---
+
+3. Secondary Research Questions
+
+RQ2 — Explanation Presence
+
+Does providing an explanation improve passenger understanding of unexpected autonomous-vehicle behaviour compared with providing no explanation?
+
+RQ3 — Explanation Specificity
+
+Does a contextual explanation produce better understanding and trust calibration than a minimal explanation?
+
+RQ4 — Explanation Timing
+
+Does presenting an explanation before an autonomous action support better passenger understanding than presenting the explanation after the action?
+
+RQ5 — Risk and Urgency
+
+Does the effectiveness of an explanation change according to the perceived risk or urgency of the event?
+
+RQ6 — Passenger Activity
+
+Does engagement in a concurrent passenger activity affect the effectiveness of visual, auditory, or multimodal explanations?
+
+---
+
+4. Experimental Scope
+
+The initial experiment will prioritize one central manipulation rather than attempting to test every research question simultaneously.
+
+The primary experimental manipulation will be:
+
+Explanation condition
+
+1. No explanation
+2. Minimal explanation
+3. Contextual explanation
+
+This manipulation is selected because the literature indicates that explanation effectiveness depends not only on whether an explanation exists, but also on the type and informational content of the explanation.
+
+Timing, modality, passenger activity, and event risk will therefore initially be treated as controlled design factors or scenario characteristics rather than all being independently manipulated in the first experiment.
+
+This reduces experimental complexity and makes the causal comparison easier to interpret.
+
+---
+
+5. Independent Variable
+
+Explanation Condition
+
+The independent variable is the level of explanatory information presented by the passenger interface.
+
+Condition A — No Explanation
+
+The vehicle performs the unexpected action without providing a textual explanation.
+
+Example:
+
+«Vehicle slows.»
+
+No additional causal information is provided.
+
+---
+
+Condition B — Minimal Explanation
+
+The interface provides a short explanation identifying the immediate reason for the vehicle behaviour.
+
+Example:
+
+«Slowing for pedestrian.»
+
+The explanation communicates the basic cause without additional contextual information.
+
+---
+
+Condition C — Contextual Explanation
+
+The interface provides the immediate cause together with relevant contextual information.
+
+Example:
+
+«Pedestrian entering the crossing ahead. Slowing to maintain a safe distance.»
+
+The contextual explanation is intended to support comprehension of both:
+
+- what the vehicle detected or responded to;
+- why the resulting action is occurring.
+
+---
+
+6. Dependent Variables
+
+Primary Dependent Variables
+
+6.1 Passenger Understanding
+
+Understanding will be evaluated through scenario-specific comprehension questions.
+
+Example:
+
+«Why did the vehicle slow down?»
+
+The participant's response will be evaluated against the information that the interface was designed to communicate.
+
+Possible scoring:
+
+- Correct
+- Partially correct
+- Incorrect
+
+A numerical scoring system will be finalized before data collection.
+
+---
+
+6.2 Trust
+
+Trust will be measured using a validated or appropriately adapted trust-in-automation measure selected during the final questionnaire-design stage.
+
+The study will focus on trust calibration rather than maximizing trust.
+
+A highly trusted system is not necessarily desirable if the passenger's trust exceeds the system's actual capabilities.
+
+The objective is therefore to determine whether explanations help passengers form an appropriately calibrated understanding of system behaviour.
+
+---
+
+6.3 Cognitive Workload
+
+Cognitive workload will be measured using NASA-TLX or another validated workload instrument selected before the experiment.
+
+The purpose is to determine whether additional explanatory information improves understanding at the cost of excessive cognitive demand.
+
+---
+
+Secondary Dependent Variables
+
+Where feasible, the study may also evaluate:
+
+- Situation awareness
+- Perceived transparency
+- Perceived usefulness of the explanation
+- Response time
+- Interaction errors
+- Task completion
+- Perceived confidence
+- Interface usability
+
+Secondary measures will not replace the primary outcome measures.
+
+---
+
+7. Experimental Scenario
+
+The participant will experience simulated autonomous-vehicle journeys in which the vehicle encounters unexpected but understandable events.
+
+The autonomous system's behaviour will remain consistent across explanation conditions.
+
+For example:
+
+Scenario
+
+The vehicle is travelling along an urban road.
+
+A pedestrian approaches or enters a crossing.
+
+The autonomous system detects the pedestrian and reduces vehicle speed.
+
+The passenger interface communicates the event differently depending on experimental condition.
+
+No Explanation
+
+«Vehicle slowing.»
+
+Minimal Explanation
+
+«Slowing for pedestrian.»
+
+Contextual Explanation
+
+«Pedestrian entering the crossing ahead. Slowing to maintain a safe distance.»
+
+The vehicle action itself must remain identical across conditions.
+
+The experimental manipulation is therefore the explanation presented to the passenger rather than the vehicle's underlying response.
+
+---
+
+8. Controlled Elements
+
+To isolate the effect of explanation condition, the following factors should remain as consistent as practically possible:
+
+- Vehicle behaviour
+- Event location
+- Approximate vehicle speed
+- Event timing
+- Environmental complexity
+- Visual appearance of the interface
+- Typography
+- Layout
+- Touch-target dimensions
+- General interface hierarchy
+- Task instructions
+- Question wording
+- Interaction device
+- Audio characteristics where audio is not the experimental variable
+
+The principal difference between conditions should be the explanatory information.
+
+---
+
+9. Experimental Unit
+
+The unit of analysis will be the participant's response to an experimental scenario.
+
+Each participant may experience multiple scenarios if the final design uses a within-subject structure.
+
+If a within-subject design is selected, scenario order and explanation-condition order must be controlled to reduce order and learning effects.
+
+---
+
+10. Candidate Design Structure
+
+The current preferred structure is a controlled prototype-based experiment.
+
+Candidate Design
+
+Independent variable: Explanation condition
+
+Levels:
+
+- No explanation
+- Minimal explanation
+- Contextual explanation
+
+Primary outcomes:
+
+- Understanding
+- Trust
+- Cognitive workload
+
+Secondary outcomes:
+
+- Situation awareness
+- Interaction performance
+- Perceived transparency
+- Usability
+
+---
+
+11. Within-Subject vs Between-Subject Design
+
+A within-subject design is attractive because each participant can potentially experience multiple explanation conditions, allowing comparisons within the same participant.
+
+Advantages include:
+
+- Greater sensitivity to individual differences
+- Fewer participants may be required than in an equivalent between-subject design
+- Direct comparison between explanation conditions
+- Better control over baseline differences in trust and technology familiarity
+
+Potential disadvantages include:
+
+- Learning effects
+- Carryover effects
+- Participants discovering the experimental manipulation
+- Repeated exposure to similar scenarios
+
+A between-subject design avoids some of these effects but requires more participants and may introduce greater individual variability.
+
+The final design choice will be made after defining the exact number of scenarios, expected effect size, practical recruitment constraints, and statistical analysis plan.
+
+No participant number will be invented before these decisions are made.
+
+---
+
+12. Pilot Study
+
+A pilot should be conducted before the main study.
+
+The pilot is intended to identify problems with:
+
+- Scenario realism
+- Explanation readability
+- Explanation length
+- Question clarity
+- Prototype interaction
+- Audio intelligibility
+- Event timing
+- Participant instructions
+- Questionnaire burden
+- Experimental duration
+- Data recording
+- Technical failures
+
+The pilot should be treated as a methodological test rather than automatically combined with the main dataset.
+
+Any changes resulting from the pilot should be documented.
+
+---
+
+13. Experimental Integrity
+
+The following decisions should be specified before the main data collection begins:
+
+- Independent variables
+- Dependent variables
+- Experimental conditions
+- Scenario definitions
+- Participant eligibility
+- Exclusion criteria
+- Data-cleaning rules
+- Primary analysis
+- Secondary analysis
+- Treatment of missing data
+- Treatment of incomplete sessions
+
+Changes made after data collection should be documented rather than silently incorporated into the original methodology.
+
+---
+
+14. Research Integrity Constraints
+
+This project will not claim to demonstrate:
+
+- Production-level autonomous-driving safety
+- Autonomous-vehicle algorithm performance
+- ISO 26262 compliance
+- ASIL certification
+- Real-world autonomous-driving safety validation
+- Clinical psychological effects
+- Universal passenger behaviour
+
+The experiment evaluates a passenger-facing interface under controlled conditions.
+
+The findings should therefore be interpreted within the tested scenarios, participant population, interface implementation, and experimental context.
+
+---
+
+15. Expected Analytical Logic
+
+The proposed causal logic is:
+
+Explanation Condition
+
+↓
+
+Passenger Perception
+
+↓
+
+Understanding / Situation Awareness
+
+↓
+
+Trust Calibration + Cognitive Workload
+
+↓
+
+Interaction Performance
+
+The experiment will test whether changes in explanatory presentation are associated with measurable differences in these outcomes.
+
+---
+
+16. Decision for Day 10
+
+The project will initially prioritize explanation specificity/presence as the principal experimental manipulation.
+
+Timing, modality, passenger activity, and event risk will remain important research variables but will not all be manipulated simultaneously in the first experiment.
+
+This decision is intended to maintain a manageable experimental design while preserving the possibility of future extensions.
+
+---
+
+17. Next Steps
+
+Before prototype implementation:
+
+1. Define the exact experimental scenarios.
+2. Define the participant task for each scenario.
+3. Finalize the explanation text.
+4. Determine whether the experiment will be within-subject or between-subject.
+5. Define randomization/counterbalancing.
+6. Conduct a formal sample-size/power analysis where appropriate.
+7. Finalize questionnaires and scoring.
+8. Define the statistical analysis plan.
+9. Build the experimental prototype.
+10. Conduct the pilot.
+
+---
+
+Status
+
+Experimental design: v1
+Primary manipulation: Explanation condition
+Primary outcomes: Understanding, trust, cognitive workload
+Design status: Preliminary — not yet locked
+Next milestone: Experimental scenario and task specification
