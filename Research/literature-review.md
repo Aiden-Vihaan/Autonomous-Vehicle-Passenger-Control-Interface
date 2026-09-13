@@ -290,3 +290,168 @@ The final literature review will distinguish between:
 - Design implications
 - Open questions
 - Project-specific assumptions
+
+Day 4 — Literature Discovery Protocol
+
+Objective
+
+Begin systematic discovery of academic literature relevant to the research questions.
+
+The literature search will focus on five interconnected areas:
+
+1. Autonomous vehicle passenger interaction
+2. Explainable AI and human understanding
+3. Trust in automation
+4. Situation awareness
+5. Cognitive workload
+
+These areas are intentionally connected because the project investigates not only whether an explanation is understandable, but also how explanation design may influence passenger perception, trust, workload, and interaction behaviour.
+
+---
+
+Search Strategy
+
+Academic literature will be searched using established scholarly databases and search engines, including:
+
+- Google Scholar
+- ACM Digital Library
+- IEEE Xplore
+- ScienceDirect
+- SpringerLink
+- PubMed where relevant to human factors or cognitive measurement
+
+The initial search will use combinations of the following concepts.
+
+Autonomous Vehicle Interaction
+
+- "autonomous vehicle" AND passenger AND interface
+- "automated vehicle" AND passenger experience
+- "self-driving vehicle" AND human factors
+- "autonomous vehicle" AND human-computer interaction
+- "autonomous vehicle" AND trust
+
+Explainable AI
+
+- "explainable AI" AND human understanding
+- "XAI" AND trust
+- "explainable artificial intelligence" AND workload
+- "AI explanations" AND human factors
+- "explanation design" AND autonomous systems
+
+Trust in Automation
+
+- "trust in automation" AND autonomous vehicles
+- "trust calibration" AND automation
+- "human automation trust" AND explanation
+- "automation transparency" AND trust
+
+Situation Awareness
+
+- "situation awareness" AND autonomous vehicles
+- "situation awareness" AND automated systems
+- "human automation interaction" AND situation awareness
+
+Cognitive Workload
+
+- "cognitive workload" AND autonomous vehicles
+- "NASA-TLX" AND autonomous vehicle
+- "mental workload" AND automated driving
+- "workload" AND human automation interaction
+
+---
+
+Initial Screening Process
+
+Each identified source will pass through the following stages:
+
+Stage 1 — Relevance
+
+Determine whether the source directly relates to one or more research areas.
+
+Stage 2 — Methodological Review
+
+Record:
+
+- Study design
+- Participants
+- Experimental context
+- Independent variables
+- Dependent variables
+- Measurement instruments
+- Analysis approach
+
+Stage 3 — Findings
+
+Record the main findings without overstating their implications.
+
+Stage 4 — Limitations
+
+Identify limitations reported by the authors and additional limitations that may affect application to this project.
+
+Stage 5 — Project Relevance
+
+Determine whether the source:
+
+- Supports an existing hypothesis.
+- Challenges an existing hypothesis.
+- Suggests a new variable.
+- Supports a design decision.
+- Supports a measurement choice.
+- Identifies an unresolved question.
+
+---
+
+Research Integrity Rule
+
+The literature review will distinguish clearly between:
+
+Established finding
+
+A finding supported by credible evidence.
+
+Observed pattern
+
+A finding appearing across multiple studies but requiring contextual interpretation.
+
+Conflicting evidence
+
+Studies that produce different or opposing results.
+
+Research limitation
+
+A limitation of existing evidence or methodology.
+
+Design implication
+
+A potential implication for the interface design.
+
+Research opportunity
+
+An unresolved question that may justify further investigation.
+
+Assumption
+
+A project-level assumption that has not yet been empirically established.
+
+---
+
+Research Gap
+
+The project will not claim that a specific research gap exists merely because it appears absent from an initial search.
+
+A research gap will only be formulated after reviewing sufficient relevant literature and determining:
+
+1. What has already been studied.
+2. Which populations and contexts have been studied.
+3. Which variables have been examined.
+4. Which methods have been used.
+5. Which limitations repeatedly appear.
+6. Which questions remain insufficiently answered.
+
+---
+
+Day 4 Objective
+
+The immediate objective is to establish an evidence base rather than finalize the research gap.
+
+The output of this stage will be a source matrix containing critically evaluated academic literature connected to the project's research questions.
