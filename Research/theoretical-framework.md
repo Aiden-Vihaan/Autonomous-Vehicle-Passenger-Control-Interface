@@ -141,3 +141,203 @@ A theoretical framework will be included in the final project only if it:
 The final theoretical framework has not yet been frozen.
 
 Literature review findings will determine which theories provide the strongest foundation for the final research design.
+
+## Day7
+Theoretical Framework
+
+Purpose
+
+This document establishes the theoretical foundation for the Autonomous Vehicle Passenger Control Interface project.
+
+The project investigates how explainable AI (XAI), interface transparency, and multimodal communication influence passenger understanding, trust, situation awareness, cognitive workload, and interaction behaviour during unexpected autonomous-vehicle events.
+
+The framework is based on concepts from Human Factors Engineering, Human-Computer Interaction, Cognitive Systems Engineering, and Human-AI Interaction.
+
+---
+
+Framework Overview
+
+Autonomous Vehicle Behaviour
+                ↓
+      Explainable Information
+                ↓
+      Passenger Perception
+                ↓
+ Situation Awareness + Understanding
+                ↓
+ Trust Calibration + Workload
+                ↓
+ Interaction Behaviour
+
+This model is preliminary and will evolve with further literature analysis.
+
+---
+
+Theory 1 — Situation Awareness
+
+Source
+
+Endsley, M. R. (1995)
+
+Concept
+
+Situation awareness refers to:
+
+1. Perception of relevant information.
+2. Comprehension of meaning.
+3. Projection of future events.
+
+---
+
+Application to Project
+
+Passengers should understand:
+
+- What the vehicle detects.
+- Why the vehicle acts.
+- What will happen next.
+
+Example:
+
+Vehicle says:
+
+«"Road obstruction detected. Vehicle will change lane in 3 seconds."»
+
+This supports:
+
+- Perception.
+- Understanding.
+- Prediction.
+
+---
+
+Theory 2 — Trust Calibration
+
+Trust should not be maximized.
+
+Trust should match:
+
+- System capability.
+- Reliability.
+- Current operating conditions.
+
+Too little trust:
+
+- Anxiety.
+- Unnecessary interventions.
+
+Too much trust:
+
+- Overreliance.
+
+The goal is:
+
+«Appropriate trust.»
+
+NASA and human-autonomy research support this concept.
+
+---
+
+Theory 3 — Explainable AI
+
+Explainable AI provides understandable reasons for system behaviour.
+
+Research indicates that explainability influences:
+
+- Trust.
+- Acceptance.
+- Perceived safety.
+- Understanding.
+
+Example:
+
+Instead of:
+
+«"Route changed"»
+
+Use:
+
+«"Heavy rain detected. Alternative route selected to improve safety."»
+
+---
+
+Theory 4 — Cognitive Workload
+
+Humans have limited cognitive resources.
+
+Too much information can increase workload.
+
+Too little information can increase uncertainty.
+
+NASA-TLX is a standard method for workload measurement.
+
+Dimensions:
+
+- Mental demand
+- Physical demand
+- Temporal demand
+- Effort
+- Performance
+- Frustration
+
+---
+
+Theory 5 — Visual Attention (SEEV)
+
+SEEV:
+
+- Salience
+- Effort
+- Expectancy
+- Value
+
+The model predicts where users look.
+
+Important information should:
+
+- Be visually salient.
+- Require minimal effort.
+- Appear where expected.
+- Have high task value.
+
+---
+
+Theory 6 — Multimodal Interaction
+
+Research suggests explanations can combine:
+
+- Visual information
+- Audio information
+- Contextual information
+
+Multimodal explanations may improve:
+
+- Understanding
+- Confidence
+- Trust.
+
+---
+
+Preliminary Framework
+
+The current project assumes:
+
+1. Better explanations improve understanding.
+2. Better understanding improves situation awareness.
+3. Better awareness improves calibrated trust.
+4. Appropriate trust improves interaction quality.
+5. Excessive explanation may increase workload.
+
+These relationships remain hypotheses.
+
+---
+
+Day 7 Status
+
+The project now has an initial Human Factors theoretical foundation.
+
+Future work will determine:
+
+- Which theories remain relevant.
+- Which variables are strongest.
+- Which relationships are empirically testable.
