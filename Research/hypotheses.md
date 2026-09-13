@@ -100,3 +100,128 @@ They are not conclusions.
 The final analysis will report whether the collected evidence supports, partially supports, or does not support each hypothesis.
 
 The hypotheses may be refined if the literature review or pilot study identifies methodological problems with the initial formulation. Any changes will be documented rather than silently replacing the original hypotheses.
+
+Research Hypotheses
+
+Purpose
+
+The hypotheses translate the research questions into empirically testable predictions.
+
+They are provisional and may be revised after further literature analysis and pilot testing.
+
+---
+
+H1 — Explanation and Comprehension
+
+H1: Participants receiving an explanation of unexpected autonomous-vehicle behaviour will demonstrate higher comprehension accuracy than participants receiving no explanation.
+
+Independent Variable
+
+Explanation presence.
+
+Dependent Variable
+
+Comprehension accuracy.
+
+---
+
+H2 — Contextual Explanation
+
+H2: Participants receiving contextual explanations will demonstrate higher comprehension accuracy than participants receiving minimal explanations.
+
+Minimal explanation
+
+Example:
+
+«"Slowing for pedestrian."»
+
+Contextual explanation
+
+Example:
+
+«"Pedestrian entering the crossing ahead. Slowing to maintain a safe distance."»
+
+The contextual explanation communicates both:
+
+- relevant environmental information,
+- and the reason for the vehicle's action.
+
+---
+
+H3 — Explanation Timing
+
+H3: Explanations presented before an unexpected vehicle action will produce better understanding and trust outcomes than explanations presented after the action.
+
+This hypothesis is informed by previous AV research in which pre-action explanations produced more favourable trust and preference outcomes than post-action explanations.
+
+---
+
+H4 — Trust Calibration
+
+H4: Explanations that improve understanding will be associated with more appropriately calibrated trust rather than simply higher trust.
+
+The objective is therefore not:
+
+«Maximum trust.»
+
+The objective is:
+
+«Appropriate trust relative to system behaviour and situation.»
+
+This distinction is important because trust can change following dangerous or unexpected situations, indicating that trust is dynamic rather than static.
+
+---
+
+H5 — Cognitive Workload
+
+H5: More detailed explanations may improve understanding but may also increase perceived cognitive workload.
+
+This hypothesis introduces an important Human Factors trade-off.
+
+The project therefore does not assume that the most informative interface is automatically the best interface.
+
+---
+
+H6 — Risk Interaction
+
+H6: The effect of explanation type on trust will differ according to perceived risk or urgency of the autonomous-vehicle situation.
+
+This hypothesis is directly motivated by research showing that perceived risk moderated the effects of explanation type on trust.
+
+---
+
+H7 — Passenger Activity
+
+H7: Explanation effectiveness will differ depending on whether the passenger is engaged in a non-driving-related task.
+
+Recent passenger research found that explanation modality and passenger engagement can interact, with multimodal explanations not necessarily producing better UX when passengers are occupied with another task.
+
+---
+
+Hypothesis Summary
+
+Hypothesis| Main Relationship
+H1| Explanation → comprehension
+H2| Contextual explanation → comprehension
+H3| Timing → understanding/trust
+H4| Understanding → calibrated trust
+H5| Explanation detail → workload
+H6| Risk × explanation → trust
+H7| Passenger activity × modality → explanation effectiveness
+
+---
+
+Important Research Integrity Note
+
+These hypotheses are predictions, not findings.
+
+The project will not state that the hypotheses are supported until empirical data has been collected and statistically analysed.
+
+A hypothesis may be:
+
+- supported,
+- partially supported,
+- unsupported,
+- or contradicted by the data.
+
+Unexpected findings will be retained rather than selectively removed.
