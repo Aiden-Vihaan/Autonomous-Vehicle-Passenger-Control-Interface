@@ -124,3 +124,124 @@ Completed:
 Next step:
 
 Populate the matrix with verified academic sources and connect each source to the relevant research question.
+
+Source Matrix
+
+Purpose
+
+The source matrix provides a high-level comparison of academic literature relevant to the project.
+
+Detailed analysis of each source is maintained in "research/research-log.md".
+
+---
+
+Matrix
+
+ID| Research Area| RQ| Method| Participants / Context| Main Finding| Limitation| Project Relevance| Supports / Challenges| Evidence
+S01| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S02| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S03| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S04| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S05| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S06| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S07| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+S08| [Area]| [RQ]| [Method]| [Context]| [Finding]| [Limitation]| [Relevance]| [Supports/Challenges]| [Strength]
+
+---
+
+Cross-Source Synthesis
+
+Autonomous Vehicle Interaction
+
+Evidence observed:
+[To be completed after reviewing sources.]
+
+Consistency across studies:
+[High / Moderate / Low / Unknown]
+
+Important limitations:
+[To be completed.]
+
+---
+
+Explainable AI
+
+Evidence observed:
+[To be completed.]
+
+Consistency across studies:
+[High / Moderate / Low / Unknown]
+
+Important limitations:
+[To be completed.]
+
+---
+
+Trust in Automation
+
+Evidence observed:
+[To be completed.]
+
+Consistency across studies:
+[High / Moderate / Low / Unknown]
+
+Important limitations:
+[To be completed.]
+
+---
+
+Situation Awareness
+
+Evidence observed:
+[To be completed.]
+
+Consistency across studies:
+[High / Moderate / Low / Unknown]
+
+Important limitations:
+[To be completed.]
+
+---
+
+Cognitive Workload
+
+Evidence observed:
+[To be completed.]
+
+Consistency across studies:
+[High / Moderate / Low / Unknown]
+
+Important limitations:
+[To be completed.]
+
+---
+
+Evidence Gaps
+
+Do not use this section to claim a formal research gap yet.
+
+Instead, record observations such as:
+
+- Under-represented participant populations.
+- Limited experimental contexts.
+- Inconsistent findings.
+- Variables that are rarely measured together.
+- Differences between driver and passenger contexts.
+- Differences between normal and unexpected events.
+- Measurement limitations.
+
+---
+
+Day 5 Status
+
+Completed:
+
+- Source comparison structure established.
+- Evidence extraction structure established.
+- Cross-source synthesis categories established.
+- Methodological comparison categories established.
+- Research-gap observations separated from confirmed research gaps.
+
+Next step:
+
+Continue analyzing verified academic sources and begin identifying recurring evidence patterns.
