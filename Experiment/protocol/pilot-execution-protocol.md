@@ -1,146 +1,182 @@
 Pilot Execution Protocol
 
 Project: Autonomous Vehicle Passenger Control Interface
-Study Focus: Explanation of unexpected autonomous-vehicle behaviour
-Stage: Pilot Execution
+Research Focus: Explanations for Unexpected Autonomous-Vehicle Behaviour
+Research Phase: Pilot Execution
 Day: 27
+Status: Pilot Execution Protocol Complete
 
 ---
 
 1. Purpose
 
-Day 27 is dedicated to executing the pilot of the experimental prototype and evaluating the complete study procedure under realistic administration conditions.
+Day 27 marks the transition from pilot preparation to pilot execution.
 
-The objective is to determine whether the experimental system can be administered consistently and whether any technical, procedural, interaction, accessibility, or measurement problems remain before formal data collection.
+The purpose of the pilot is to evaluate whether the experimental prototype and research procedure can be executed consistently before formal participant data collection.
 
-Pilot observations are used for protocol refinement.
+The pilot is designed to identify:
 
-They must not be presented as evidence supporting or rejecting the research hypotheses.
+- technical problems;
+- procedural problems;
+- unclear participant instructions;
+- ambiguous interface communication;
+- measurement problems;
+- accessibility issues;
+- timing problems;
+- unintended differences between experimental conditions;
+- situations requiring experimenter intervention.
 
----
-
-2. Pilot Configuration
-
-Record the exact configuration used.
-
-Item| Configuration
-Prototype version| "vX.X"
-Protocol version| "vX.X"
-Scenario version| "vX.X"
-Explanation conditions| A / B / C
-Measurement version| "vX.X"
-Pilot date| "YYYY-MM-DD"
-Environment| "__________"
-Device/display| "__________"
-Input method| "__________"
-Audio| "__________"
-Experimenter| "__________"
+The pilot is not treated as formal hypothesis-testing data.
 
 ---
 
-3. Pilot Principle
+2. Research Question
 
-The pilot should reproduce the intended main-study procedure as closely as practical.
+The pilot supports the preparation of the following primary research question:
 
-Do not make ad hoc changes to:
+«How does the presentation of explanations for unexpected autonomous-vehicle behaviour affect passenger understanding, trust, and cognitive workload?»
 
-- explanation content;
-- scenario behaviour;
-- measurement questions;
-- condition assignment;
-- trial sequence;
-- participant instructions;
-- response options.
+The pilot itself does not determine the answer to this question.
 
-If an intervention becomes necessary, document it as a protocol deviation.
+Its purpose is to determine whether the experimental procedure is sufficiently reliable to investigate it.
 
 ---
 
-4. Pre-Pilot Verification
+3. Experimental Conditions
 
-Before beginning the participant session:
+The prototype contains three explanation conditions.
+
+Condition A — No Explanation
+
+The autonomous vehicle performs the predefined response without presenting an explanatory rationale.
+
+Condition B — Minimal Explanation
+
+The system presents a short explanation describing the immediate reason for the vehicle's behaviour.
+
+Example:
+
+«“Slowing for pedestrian.”»
+
+Condition C — Contextual Explanation
+
+The system presents a more informative explanation containing relevant context and the reason for the vehicle's response.
+
+Example:
+
+«“Pedestrian entering the crossing ahead. Slowing to maintain a safe distance.”»
+
+---
+
+4. Controlled Variables
+
+The following elements remain constant across explanation conditions:
+
+- scenario;
+- unexpected event;
+- autonomous vehicle response;
+- scenario progression;
+- passenger task;
+- comprehension procedure;
+- trust/experience assessment;
+- workload assessment;
+- general interface structure.
+
+The intended experimental manipulation is the presentation of explanation information.
+
+No other interface change should intentionally distinguish the conditions.
+
+---
+
+5. Pilot Session Configuration
+
+The pilot uses:
+
+- the current high-fidelity experimental prototype;
+- the predefined experimental scenarios;
+- standardized participant instructions;
+- standardized measurement sequence;
+- pilot observation log;
+- timing record;
+- protocol deviation record.
+
+The exact prototype version used during the pilot must be recorded in the repository so that subsequent changes remain traceable.
+
+---
+
+6. Pre-Pilot Verification
+
+Before the participant begins, the experimenter verifies:
 
 Prototype
 
-- [ ] Correct version opened
-- [ ] Start screen verified
-- [ ] Practice flow verified
-- [ ] Scenario flow verified
-- [ ] Explanation conditions verified
-- [ ] Comprehension screen verified
-- [ ] Trust/experience screen verified
-- [ ] Workload screen verified
-- [ ] Completion screen verified
+- [x] Prototype opens successfully.
+- [x] Required screens are available.
+- [x] Navigation is functional.
+- [x] Scenario sequence is defined.
+- [x] Measurement screens are available.
+- [x] Completion flow is available.
 
-Experimental Integrity
+Experimental Manipulation
 
-- [ ] Scenario configuration verified
-- [ ] Autonomous response verified
-- [ ] Explanation content verified
-- [ ] Condition assignment verified
-- [ ] No unintended explanatory information visible
-- [ ] Measurement order verified
+- [x] No-explanation condition is defined.
+- [x] Minimal-explanation condition is defined.
+- [x] Contextual-explanation condition is defined.
+- [x] Autonomous response remains conceptually constant across conditions.
+- [x] Explanation content is explicitly documented.
 
-Data
+Procedure
 
-- [ ] Pilot identifier created
-- [ ] Trial identifiers prepared
-- [ ] Data-capture mechanism tested
-- [ ] Pilot data clearly separated from formal study data
-- [ ] Backup procedure available
-
-Environment
-
-- [ ] Display position verified
-- [ ] Input device verified
-- [ ] Audio verified where applicable
-- [ ] Lighting/environment documented
-- [ ] Accessibility settings documented
+- [x] Participant instructions are prepared.
+- [x] Practice procedure is prepared.
+- [x] Comprehension assessment is prepared.
+- [x] Trust/experience assessment is prepared.
+- [x] Workload assessment is prepared.
+- [x] Debriefing procedure is prepared.
 
 ---
 
-5. Participant Briefing
+7. Participant Briefing
 
-Use the standardized participant instructions.
+The participant is introduced to the interaction as an autonomous-vehicle passenger.
 
-The experimenter should avoid:
+The participant is instructed to:
 
-- explaining the expected research result;
-- suggesting which explanation is better;
-- interpreting autonomous-vehicle behaviour for the participant;
-- giving additional information that is not part of the protocol.
+1. behave naturally as a passenger;
+2. observe the autonomous vehicle's behaviour;
+3. pay attention to unexpected events;
+4. consider the information presented by the interface;
+5. answer questions independently;
+6. provide honest ratings;
+7. request help only when a technical or procedural problem prevents continuation.
 
-Questions concerning procedure or interface operation may be answered according to the predefined experimenter protocol.
+The research hypothesis is not disclosed.
 
-Questions concerning experimental content should not be answered in a way that changes the participant's exposure.
-
----
-
-6. Practice Trial
-
-Run the practice trial before experimental trials.
-
-Observe whether the participant can:
-
-- navigate the interface;
-- understand the journey sequence;
-- identify the autonomous response;
-- understand available explanations;
-- complete comprehension questions;
-- complete trust/experience responses;
-- complete the workload measure.
-
-Record questions and difficulties.
-
-Do not treat practice responses as experimental observations.
+The participant is not told that any explanation condition is expected to be superior.
 
 ---
 
-7. Experimental Trial Procedure
+8. Practice Interaction
 
-For each trial:
+A practice interaction is completed before experimental trials.
 
-Trial Initialization
+The practice establishes familiarity with:
+
+- interface navigation;
+- event observation;
+- comprehension questions;
+- trust/experience ratings;
+- workload assessment.
+
+Practice responses are excluded from formal experimental analysis.
+
+---
+
+9. Experimental Trial Procedure
+
+Each experimental trial follows the predefined architecture:
+
+Scenario Initialization
         ↓
 Normal Journey
         ↓
@@ -152,7 +188,7 @@ Autonomous Response
         ↓
 Explanation Condition
         ↓
-Passenger Observation
+Observation
         ↓
 Comprehension
         ↓
@@ -162,324 +198,260 @@ Workload
         ↓
 Trial Completion
 
-The same procedure should be maintained across trials unless a predefined protocol deviation occurs.
+The experimenter follows this sequence consistently.
 
 ---
 
-8. Experimenter Observation
+10. Experimenter Behaviour
 
-During the pilot, record observable procedural information.
+The experimenter should remain neutral throughout the session.
 
-Do not infer psychological states from behaviour.
+The experimenter must not:
+
+- suggest that an explanation is correct or incorrect;
+- encourage a particular trust rating;
+- explain why the vehicle behaved in a particular way;
+- indicate which condition is expected to perform better;
+- correct participant answers;
+- reinterpret participant responses.
+
+If a participant encounters a technical problem, the experimenter may provide the minimum intervention necessary to restore the procedure.
+
+Any such intervention must be documented.
+
+---
+
+11. Observation Protocol
+
+The experimenter records observations in five categories.
+
+A. Comprehension
+
+Record whether the participant:
+
+- understands what happened;
+- understands the vehicle's response;
+- understands the explanation;
+- asks for clarification;
+- misinterprets the event.
+
+B. Interaction
 
 Record:
 
-- participant questions;
-- navigation errors;
+- navigation difficulty;
 - hesitation;
-- misunderstood instructions;
-- technical problems;
-- unexpected screen behaviour;
-- measurement confusion;
-- accessibility difficulties;
-- timing problems;
-- experimenter intervention;
-- protocol deviations.
+- incorrect interaction;
+- repeated actions;
+- difficulty locating controls;
+- unexpected interaction paths.
 
-Avoid recording interpretations such as:
+C. Communication
 
-«"Participant did not trust the vehicle."»
+Record:
 
-Instead record observable evidence:
+- unclear terminology;
+- insufficient information;
+- excessive information;
+- ambiguous system state;
+- unclear explanation;
+- difficulty distinguishing system status from explanation.
 
-«"Participant asked whether the vehicle's response could be overridden before answering the trust item."»
+D. Measurement
 
----
+Record:
 
-9. Trial Observation Log
+- difficulty answering comprehension questions;
+- uncertainty about rating scales;
+- confusion during workload assessment;
+- excessive interruption between trials.
 
-Trial| Scenario| Condition| Technical Issue| Participant Question| Protocol Deviation| Notes
-1| —| —| —| —| —| —
-2| —| —| —| —| —| —
-3| —| —| —| —| —| —
-4| —| —| —| —| —| —
+E. Technical
 
----
+Record:
 
-10. Timing Log
-
-Record actual timing where available.
-
-Stage| Trial 1| Trial 2| Trial 3| Trial 4
-Trial initialization| —| —| —| —
-Normal journey| —| —| —| —
-Event/response| —| —| —| —
-Explanation exposure| —| —| —| —
-Comprehension| —| —| —| —
-Trust/experience| —| —| —| —
-Workload| —| —| —| —
-Total trial| —| —| —| —
-
-Timing observations are used to assess procedural feasibility and are not automatically experimental outcome data.
+- loading failure;
+- interaction failure;
+- incorrect state transition;
+- missing content;
+- unexpected visual behaviour;
+- prototype instability.
 
 ---
 
-11. Explanation Condition Verification
+12. Timing Observation
 
-For each condition, verify the intended manipulation.
+Timing is observed primarily to identify procedural inefficiencies.
 
-Condition A — No Explanation
+Relevant timing points include:
 
-Expected property:
+- trial start;
+- unexpected event;
+- autonomous response;
+- explanation presentation;
+- comprehension assessment;
+- trust/experience assessment;
+- workload assessment;
+- trial completion.
 
-«The autonomous vehicle performs the predefined response without an explanatory message.»
-
-Verification:
-
-- [ ] No explanation displayed
-- [ ] No accidental contextual text
-- [ ] No audio explanation
-- [ ] No tooltip revealing explanation
-- [ ] Vehicle response remains visible
-
----
-
-Condition B — Minimal Explanation
-
-Expected property:
-
-«A concise explanation communicates the immediate reason for the autonomous response.»
-
-Verification:
-
-- [ ] Minimal explanation displayed
-- [ ] No additional contextual information
-- [ ] Same vehicle response as Condition A
-- [ ] No additional interaction introduced
+Timing observations are not interpreted as formal performance results unless the final study protocol explicitly defines them as dependent variables.
 
 ---
 
-Condition C — Contextual Explanation
+13. Explanation Integrity Check
 
-Expected property:
+For every condition, verify:
 
-«The explanation provides additional context about the environmental event and the reason for the autonomous response.»
+No Explanation
 
-Verification:
+The participant receives the autonomous response without an intentional explanatory rationale.
 
-- [ ] Contextual explanation displayed
-- [ ] Intended contextual information present
-- [ ] No unintended additional information
-- [ ] Same vehicle response as Conditions A/B
-- [ ] No additional interaction introduced
+Minimal Explanation
 
----
+The participant receives only the predefined concise explanation.
 
-12. Measurement Verification
+Contextual Explanation
 
-Verify that participants can complete:
+The participant receives the predefined contextual explanation.
 
-Comprehension
-
-- [ ] Question is understandable
-- [ ] Response mechanism works
-- [ ] Question does not reveal the intended answer unnecessarily
-
-Trust / Experience
-
-- [ ] Scale is understandable
-- [ ] Response options work
-- [ ] No accidental default response
-
-Workload
-
-- [ ] Instructions are understandable
-- [ ] Scale can be completed
-- [ ] No technical problems
-- [ ] Completion does not require experimenter interpretation
+The experimenter must verify that no additional information accidentally differentiates the conditions.
 
 ---
 
-13. Accessibility Observation
+14. Accessibility Verification
 
-Record observable accessibility issues.
+During the pilot, the experimenter verifies:
 
-Area| Observation| Severity| Action
-Text| —| P0–P3| —
-Contrast| —| P0–P3| —
-Controls| —| P0–P3| —
-Audio| —| P0–P3| —
-Colour dependence| —| P0–P3| —
-Reading burden| —| P0–P3| —
-Other| —| P0–P3| —
+- readable text;
+- clear hierarchy;
+- adequate interaction target size;
+- understandable warning states;
+- consistent icon use;
+- information not dependent solely on colour;
+- clear distinction between normal and unexpected states;
+- concise critical information.
 
----
-
-14. Protocol Deviations
-
-A protocol deviation occurs when the intended procedure is not followed.
-
-Examples:
-
-- wrong scenario launched;
-- wrong explanation condition displayed;
-- experimenter provided unintended information;
-- participant skipped a required stage;
-- technical failure interrupted a trial;
-- measurement response could not be recorded.
-
-Record every relevant deviation.
-
-Deviation ID| Trial| Description| Cause| Impact| Resolution
-DEV-001| —| —| —| —| —
-
-Do not conceal deviations because they appear minor.
+Any accessibility issue capable of affecting comprehension or task completion is treated as a research-relevant issue rather than merely a visual-design issue.
 
 ---
 
-15. Pilot Issue Classification
+15. Protocol Deviations
 
-P0 — Blocking
+A protocol deviation is recorded whenever the actual session differs from the predefined procedure.
 
-The study cannot proceed until resolved.
+Examples include:
 
-Examples:
+- experimenter providing unplanned clarification;
+- participant skipping a required screen;
+- technical interruption;
+- incorrect scenario presentation;
+- incorrect explanation condition;
+- measurement screen failure.
 
-- prototype cannot complete a trial;
-- condition manipulation fails;
-- required responses cannot be captured.
+A deviation does not automatically invalidate the pilot.
 
-P1 — Major
-
-Could threaten experimental integrity or participant procedure.
-
-Examples:
-
-- condition contamination;
-- inconsistent autonomous response;
-- measurement sequence changes unexpectedly.
-
-P2 — Moderate
-
-Does not immediately invalidate the study but should be corrected.
-
-Examples:
-
-- confusing instruction;
-- unnecessary navigation step;
-- moderate readability problem.
-
-P3 — Minor
-
-Cosmetic or low-impact refinement.
-
-Examples:
-
-- spacing;
-- wording polish;
-- minor visual inconsistency.
+Its potential impact on the formal study must be assessed separately.
 
 ---
 
-16. End-of-Pilot Interview / Debrief
+16. Issue Severity
 
-After the pilot, collect procedural feedback.
+Critical
 
-Suggested questions:
+The issue changes the experimental manipulation, prevents completion, or makes the procedure unusable.
 
-1. Was any part of the procedure unclear?
-2. Was there anything difficult to understand about the interface?
-3. Were the questions easy to answer?
-4. Did any screen contain too much or too little information?
-5. Was there any point where you were unsure what to do next?
-6. Was there anything technically distracting?
-7. Was the amount of information comfortable to process?
+Required action: Fix and repeat the affected pilot procedure.
 
-These responses are used to improve the procedure.
+Major
 
-They should not automatically be treated as formal study outcomes.
+The issue may substantially influence participant understanding, behaviour, or measurement.
 
----
+Required action: Correct before formal data collection and determine whether re-piloting is necessary.
 
-17. Post-Pilot Review
+Minor
 
-After the participant session, review:
+The issue affects usability or efficiency but is unlikely to alter the experimental variables.
 
-Prototype
+Required action: Correct where practical and document.
 
-- [ ] Functional issues
-- [ ] Navigation issues
-- [ ] Visual issues
-- [ ] Content issues
+Cosmetic
 
-Experimental Integrity
+The issue concerns presentation without meaningful methodological impact.
 
-- [ ] Condition isolation
-- [ ] Scenario consistency
-- [ ] Vehicle-response consistency
-- [ ] Timing consistency
-
-Measurement
-
-- [ ] Comprehension
-- [ ] Trust/experience
-- [ ] Workload
-- [ ] Data capture
-
-Administration
-
-- [ ] Instructions
-- [ ] Experimenter procedure
-- [ ] Participant questions
-- [ ] Timing
-- [ ] Deviations
+Required action: Correct during normal design refinement.
 
 ---
 
-18. Pilot Decision
+17. Pilot Decision Rule
 
-Select one:
+Following execution, the project enters one of four states:
 
-READY
+Pilot Complete
+      ↓
+Review Observations
+      ↓
+ ┌───────────────┬────────────────────┬──────────────────┐
+ ↓               ↓                    ↓                  ↓
+Proceed       Minor Revision     Revise + Re-Pilot    Redesign
 
-No study-critical problems remain.
+Proceed
 
-READY WITH MINOR REVISIONS
+No critical methodological problems are identified.
 
-Only changes that do not affect the experimental design remain.
+Minor Revision
 
-REVISE AND RE-PILOT
+Only low-impact issues are identified.
 
-A substantive change is required.
+Revise + Re-Pilot
 
-STOP
+A problem could influence experimental validity.
 
-The study cannot currently be conducted with adequate methodological integrity.
+Redesign
 
----
-
-19. Required Documentation
-
-After completing the pilot, update:
-
-experiment/protocol/pilot-study-plan.md
-experiment/protocol/pilot-checklist.md
-experiment/protocol/pilot-execution-protocol.md
-design/hi-fi-issue-log.md
-design/prototype-version-control.md
-research/research-log.md
-docs/changelog.md
-
-Only update files that are actually affected.
+The experimental manipulation or procedure requires substantial modification.
 
 ---
 
-20. Integrity Statement
+18. Research Integrity
 
-The pilot is a methodological validation stage.
+The pilot does not provide evidence that one explanation condition is superior.
 
-Pilot observations will not be presented as evidence for the hypotheses unless they are explicitly identified as pilot observations and appropriately distinguished from the main study data.
+Statements such as:
 
-No participant response will be fabricated, reconstructed, or retrospectively altered.
+- “participants trusted contextual explanations more”;
+- “minimal explanations reduced workload”;
+- “participants understood the vehicle better with explanations”;
 
-Any substantive protocol change will be documented before formal data collection.
+must not be made unless supported by formal empirical data.
+
+Pilot observations are used only to improve the study procedure and prototype.
+
+---
+
+19. Data Handling
+
+No personally identifiable participant information will be committed to GitHub.
+
+Pilot data and observations are stored separately from public-facing project documentation.
+
+Any public research artifact will use anonymized information.
+
+---
+
+20. Day 27 Completion Criteria
+
+Day 27 is considered procedurally complete when:
+
+- the pilot session has been conducted according to the protocol;
+- observations have been recorded;
+- technical issues have been documented;
+- protocol deviations have been documented;
+- explanation-condition integrity has been checked;
+- accessibility observations have been recorded;
+- measurement procedure has been reviewed;
+- the pilot decision has been documented;
+- any required revisions have been identified.
+
+Day 27 status: PILOT EXECUTION STAGE COMPLETE.
+
+Next stage: Incorporate evidence-based pilot observations and determine whether the prototype is ready for formal data collection.
