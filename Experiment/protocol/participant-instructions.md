@@ -1,139 +1,156 @@
 Participant Instructions
 
-Study: Autonomous Vehicle Passenger Control Interface
+Project: Autonomous Vehicle Passenger Control Interface
+Study Context: Autonomous Vehicle Passenger Interaction
 
 ---
 
 Welcome
 
-Thank you for taking part in this study.
+Thank you for participating in this study.
 
-This study examines how passengers understand information presented by an autonomous vehicle during unexpected situations.
+In this study, you will interact with an interface designed for passengers travelling in an autonomous vehicle.
 
-You will interact with a simulated autonomous-vehicle passenger interface and complete several short journey scenarios.
+You should imagine that you are a passenger inside the vehicle and that the vehicle is responsible for driving.
+
+Your task is to observe what happens during the journey and respond to the questions presented to you.
 
 ---
 
 Your Role
 
-Imagine that you are a passenger travelling in a fully autonomous vehicle.
+Please behave as you naturally would as a passenger.
 
-You are not required to drive the vehicle or control its movement.
+You do not need to operate the vehicle.
 
-During each journey, the vehicle will respond autonomously to events in its environment.
+Instead, pay attention to:
 
-Your task is to observe what happens and answer questions about your experience.
+- what the vehicle is doing;
+- changes in the journey;
+- unexpected events;
+- information provided by the interface;
+- explanations provided by the system;
+- whether you understand why the vehicle behaves in a particular way.
 
 ---
 
-What You Will Do
+During the Interaction
 
-The study will proceed through several stages.
+For each scenario:
 
-1. Introduction
+1. Begin the journey.
+2. Observe the autonomous vehicle's behaviour.
+3. Pay attention when something unexpected occurs.
+4. Observe the information presented by the interface.
+5. Continue when instructed.
+6. Answer the comprehension questions.
+7. Provide your experience and trust ratings.
+8. Complete the workload assessment.
+9. Proceed to the next scenario.
 
-You will receive information about the study procedure.
+Please answer based on your own experience rather than what you think the researchers expect.
 
-2. Practice
+---
 
-You will complete a practice journey to become familiar with the interaction.
+Practice
 
-The practice journey is not part of the experimental data collection.
+Before the experimental scenarios begin, you will complete a short practice interaction.
 
-3. Journey Scenarios
+The practice is intended to familiarize you with:
 
-You will experience a number of autonomous-vehicle journey situations.
+- the interface;
+- the navigation procedure;
+- the question format;
+- the rating procedure;
+- the workload assessment.
 
-During a journey, an unexpected event may occur.
+The practice interaction is not part of the experimental results.
 
-The vehicle will respond automatically.
+---
 
-Depending on the experimental condition, the interface may provide different amounts of information explaining the vehicle's behaviour.
+Unexpected Vehicle Behaviour
 
-4. Questions
+During some scenarios, the autonomous vehicle may encounter an unexpected road situation.
 
-After a journey, you will answer questions about what you observed.
+For example, the vehicle may:
 
-These questions may ask about:
+- slow down;
+- stop;
+- change its trajectory;
+- respond to another road user;
+- react to an obstacle or road restriction.
 
-- what happened;
-- why you think the vehicle behaved as it did;
-- your level of trust or confidence;
-- your experience of the interaction;
-- your perceived workload.
+Observe the vehicle's response carefully.
+
+Do not assume that the vehicle has made an error simply because its behaviour differs from what you initially expected.
+
+---
+
+Explanations
+
+Different scenarios may present different amounts of information explaining the vehicle's behaviour.
+
+Some situations may provide little or no explanation.
+
+Others may provide a short explanation or a more contextual explanation.
+
+Please evaluate the information based on your own experience.
+
+You are not expected to determine which explanation is theoretically better.
+
+---
+
+Comprehension Questions
+
+After relevant events, you will be asked questions about what happened.
+
+Answer according to what you understood from the interaction.
+
+If you are unsure, select the answer that best represents your understanding.
+
+There are no penalties for incorrect answers.
+
+---
+
+Trust and Experience Ratings
+
+You will be asked to provide ratings about your experience with the autonomous vehicle.
+
+Please use your own judgement.
+
+There is no correct trust rating.
+
+Do not change your response because you think a particular answer is expected.
+
+---
+
+Workload Assessment
+
+You will also complete a workload assessment.
+
+Consider the mental and interaction demands you experienced during the relevant task.
+
+Answer according to your actual experience rather than how difficult you think the task should have been.
 
 ---
 
 Important Instructions
 
-Please base your answers on what you actually experienced during the journey.
-
-There are no expected or preferred opinions.
-
-You do not need to guess what the researcher wants you to answer.
-
-Please do not deliberately search for patterns between the different journeys.
-
-Treat each journey as a separate passenger experience.
-
----
-
-During the Journey
-
-Please pay attention to:
-
-- the vehicle's behaviour;
-- changes in the journey;
-- unexpected events;
-- information presented by the interface;
-- explanations provided by the interface, when present.
-
-You may take the time necessary to understand the interface within the study procedure.
-
----
-
-If You Are Unsure
-
-If you have a question about how to operate the prototype, ask the experimenter before continuing.
-
-If you are unsure about the meaning of an experimental event, answer according to what you understood from the information presented during that trial.
-
-The experimenter will avoid providing information that could influence your responses.
-
----
-
-After Each Journey
-
-You will complete the required questions before moving to the next journey.
-
-Please answer each question independently based on your experience of that trial.
-
----
-
-Practice Trial
-
-Before the experimental trials begin, you will complete one practice trial.
-
-Use the practice trial to become familiar with:
-
-- navigating the journey;
-- observing an autonomous response;
-- reading or listening to available information;
-- answering comprehension questions;
-- completing the response scales.
-
-Ask procedural questions during the practice stage if needed.
-
----
-
-Final Reminder
-
 Please:
 
-- observe the journey carefully;
-- answer based on your actual experience;
-- treat each trial independently;
-- do not try to determine the expected result;
-- ask the experimenter if you have a question about operating the study interface.
+- observe the interface carefully;
+- respond independently;
+- answer honestly;
+- do not intentionally search for the research hypothesis;
+- ask the experimenter if a technical problem prevents you from continuing;
+- do not worry about making mistakes.
 
-Thank you for participating.
+The experimenter may clarify how to operate the study procedure if necessary, but will not tell you which response or rating you should select.
+
+---
+
+End of Session
+
+After completing the scenarios and questionnaires, you will receive a short debriefing about the purpose of the pilot procedure.
+
+Thank you for your participation.
