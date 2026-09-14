@@ -1,56 +1,117 @@
 Pilot Study Plan
 
 Project: Autonomous Vehicle Passenger Control Interface
-Study Focus: Explanation of unexpected autonomous-vehicle behaviour
-Stage: Pilot Preparation
+Research Focus: Explanations for Unexpected Autonomous-Vehicle Behaviour
+Research Phase: Pilot Preparation
 Day: 26
+Status: Pilot-ready
+Primary Research Question:
+
+«How does the presentation of explanations for unexpected autonomous-vehicle behaviour affect passenger understanding, trust, and cognitive workload?»
 
 ---
 
 1. Purpose
 
-The pilot study is a controlled pre-study evaluation of the experimental procedure, prototype, measurement flow, timing, instructions, and data-capture process.
+The purpose of the pilot study is to verify that the experimental prototype, scenario flow, participant instructions, measurement instruments, and data-capture procedure can be used consistently before formal data collection.
 
-The pilot is intended to identify procedural or technical problems before formal data collection begins.
-
-The pilot is not intended to generate evidence for the final research hypotheses.
-
-Pilot observations must therefore be treated as protocol-validation evidence rather than experimental findings.
-
----
-
-2. Pilot Objectives
+The pilot is a procedural and technical validation activity. It is not intended to generate evidence for the research hypotheses.
 
 The pilot will evaluate whether:
 
-1. participants understand the role of the passenger;
-2. the participant instructions are sufficiently clear;
-3. the experimental prototype can be completed without unintended navigation problems;
-4. the three explanation conditions remain distinguishable;
-5. the same autonomous-vehicle behaviour is maintained across explanation conditions;
-6. scenario timing is sufficiently consistent;
-7. comprehension questions can be answered using the information presented;
-8. trust and experience measurements appear understandable;
-9. the workload measurement can be completed without procedural confusion;
-10. required trial data are captured correctly;
-11. the experimenter can administer the procedure consistently;
-12. the overall session length is practical;
-13. accessibility features do not introduce unintended experimental differences;
-14. no technical issue creates systematic differences between conditions.
+- participants can understand the task without additional explanation;
+- the experimental sequence is clear;
+- the three explanation conditions are distinguishable;
+- scenario transitions occur as intended;
+- comprehension, trust, and workload measures can be completed without ambiguity;
+- the interface communicates unexpected vehicle behaviour clearly;
+- the prototype can be operated without unnecessary experimenter intervention;
+- timing and data-recording procedures are practical;
+- accessibility requirements are preserved;
+- no unintended interaction changes the experimental manipulation.
+
+---
+
+2. Experimental Conditions
+
+The pilot prototype implements three explanation conditions.
+
+Condition A — No Explanation
+
+The autonomous vehicle responds to the unexpected event without providing an explanatory message.
+
+The vehicle response remains visible through the interface, but no explanatory rationale is presented.
+
+Condition B — Minimal Explanation
+
+The system provides a concise explanation describing the immediate reason for its behaviour.
+
+Example:
+
+«“Slowing for pedestrian.”»
+
+Condition C — Contextual Explanation
+
+The system provides a more specific explanation containing contextual information and the reason for the autonomous response.
+
+Example:
+
+«“Pedestrian entering the crossing ahead. Slowing to maintain a safe distance.”»
+
+The autonomous vehicle's underlying response remains constant across conditions. The explanation presentation is the experimental manipulation.
 
 ---
 
 3. Pilot Scope
 
-The pilot covers the complete experimental workflow:
+The pilot evaluates the following components:
 
-Participant Introduction
-        ↓
-Study Instructions
-        ↓
-Practice Trial
+Component| Pilot Objective
+Prototype| Confirm stable operation
+Scenario engine| Confirm correct scenario progression
+Vehicle state transitions| Confirm expected autonomous responses
+Explanation system| Confirm correct condition presentation
+Comprehension measure| Confirm question clarity
+Trust measure| Confirm response procedure
+Workload measure| Confirm NASA-TLX procedure
+Timing| Identify avoidable delays
+Accessibility| Identify interaction or readability problems
+Instructions| Confirm participant can proceed independently
+Data capture| Confirm variables are recorded correctly
+Experimenter protocol| Minimise procedural inconsistency
+
+---
+
+4. Materials
+
+The pilot uses the following materials:
+
+- high-fidelity autonomous-vehicle passenger interface prototype;
+- experimental scenario set;
+- participant instruction sheet;
+- comprehension questions;
+- trust/experience questionnaire;
+- NASA-TLX workload assessment;
+- pilot observation log;
+- timing record;
+- protocol deviation record;
+- experiment data schema;
+- experimenter briefing;
+- post-session review checklist.
+
+No personally identifiable participant information will be stored in the public repository.
+
+---
+
+5. Experimental Journey
+
+Each trial follows the same basic structure:
+
+Scenario Initialization
         ↓
 Normal Journey
+        ↓
+Event Approach
         ↓
 Unexpected Event
         ↓
@@ -58,350 +119,299 @@ Autonomous Response
         ↓
 Explanation Condition
         ↓
-Passenger Observation
+Observation
         ↓
 Comprehension
         ↓
-Trust / Experience Measure
+Trust / Experience
         ↓
-Workload Measure
+Workload
         ↓
 Trial Completion
-        ↓
-Next Trial
-        ↓
-Debrief
 
-The pilot should use the same prototype architecture intended for the main study.
+The structure is kept constant across explanation conditions.
 
 ---
 
-4. What the Pilot Does Not Test
+6. Pilot Procedure
 
-The pilot must not be interpreted as evidence that:
+Step 1 — Prototype Verification
 
-- one explanation condition is superior;
-- participants generally trust autonomous vehicles;
-- explanations improve situation awareness;
-- explanations reduce workload;
-- contextual explanations produce better comprehension;
-- a particular explanation design is statistically significant;
-- the prototype is representative of production autonomous-vehicle systems.
+Before beginning the pilot:
 
-The pilot exists to evaluate the study procedure, not to establish the final empirical results.
-
----
-
-5. Pilot Materials
-
-The following materials should be available before the pilot begins:
-
-- experimental prototype;
-- participant instructions;
-- practice-trial flow;
-- experimental scenarios;
-- comprehension questions;
-- trust / experience questionnaire;
-- workload questionnaire;
-- participant information and consent materials, where applicable;
-- debrief material;
-- experimenter protocol;
-- data schema;
-- trial logging system;
-- pilot checklist;
-- issue log.
+1. Open the designated prototype version.
+2. Confirm that all required screens load correctly.
+3. Confirm that scenario navigation works.
+4. Confirm that the vehicle state transitions occur in the expected sequence.
+5. Confirm that each explanation condition displays the intended content.
+6. Confirm that no unintended explanation appears in the no-explanation condition.
+7. Confirm that measurement screens are accessible.
+8. Confirm that data recording is available.
 
 ---
 
-6. Pilot Sequence
+Step 2 — Participant Briefing
 
-Step 1 — Pre-session verification
+The participant receives the standardized participant instructions.
 
-Before the participant begins:
+The participant is told that they are interacting with an autonomous vehicle as a passenger.
 
-- verify prototype version;
-- verify scenario configuration;
-- verify explanation condition configuration;
-- verify measurement screens;
-- verify data capture;
-- verify recording/logging systems if used;
-- verify accessibility settings;
-- verify that no previous participant data are visible;
-- verify that the experimenter protocol is available.
+The participant is instructed to:
 
-Record the prototype version used.
+- behave as they normally would as a passenger;
+- observe the vehicle's behaviour;
+- respond to questions based on their experience;
+- complete the provided ratings;
+- ask for clarification only when necessary to perform the task;
+- avoid attempting to infer the research hypothesis.
 
----
-
-Step 2 — Participant briefing
-
-Provide standardized instructions.
-
-The participant should understand:
-
-- they are acting as a passenger;
-- the vehicle is autonomous;
-- they should pay attention to what happens during the journey;
-- they will encounter unexpected events;
-- they should respond to questions based on what they experienced;
-- there are no correct or preferred opinions about the explanation conditions;
-- they may request clarification about the procedure before beginning.
-
-Do not provide information that reveals the expected experimental hypothesis.
+The experimenter should not explain which explanation condition is expected to perform better.
 
 ---
 
-Step 3 — Practice trial
+Step 3 — Practice
 
-Run one practice trial before experimental trials.
+A short practice interaction is completed before the experimental scenarios.
 
-The practice trial should teach the interaction procedure without revealing which experimental condition is expected to perform better.
+The practice interaction is not included in the experimental dataset.
 
-Check whether the participant understands:
+Its purpose is to verify that the participant understands:
 
-- how the journey progresses;
-- how an unexpected event is presented;
-- how the explanation is displayed;
-- how comprehension questions work;
-- how trust/experience responses are provided;
-- how workload is completed.
-
-Record procedural difficulties.
+- how to interact with the interface;
+- how to proceed between screens;
+- how to answer comprehension questions;
+- how to provide trust/experience ratings;
+- how to complete the workload assessment.
 
 ---
 
-Step 4 — Experimental trial
+Step 4 — Experimental Trials
 
-Run the experimental trial according to the predefined protocol.
+The participant proceeds through the predefined experimental scenarios.
 
-Maintain:
+The experimenter does not provide additional explanation about the autonomous vehicle's behaviour unless required because of a technical or procedural problem.
 
-- scenario consistency;
-- vehicle-response consistency;
-- explanation-condition consistency;
-- measurement order;
-- interaction structure;
-- participant instructions.
+For each scenario, the participant experiences one predefined explanation condition.
 
-Avoid improvising explanations or changing the participant's task during the trial.
+The scenario content and autonomous vehicle response remain constant across explanation conditions.
 
 ---
 
-Step 5 — Post-trial review
+Step 5 — Comprehension Assessment
 
-After each pilot trial, record:
+After the autonomous response and explanation presentation, the participant completes the comprehension assessment.
 
-- technical problems;
-- unclear instructions;
-- unexpected participant questions;
-- navigation problems;
-- timing problems;
-- comprehension problems;
-- measurement problems;
-- accessibility problems;
-- condition-isolation problems;
-- experimenter difficulties.
+The assessment examines whether the participant understood the relevant event and the reason for the vehicle's behaviour.
 
-Do not alter the experimental condition during a trial merely because the participant appears confused unless the predefined safety/procedural protocol requires intervention.
+The participant's response is recorded without coaching.
+
+---
+
+Step 6 — Trust and Experience Assessment
+
+Following comprehension, the participant provides the predefined trust and experience ratings.
+
+The experimenter does not suggest an appropriate answer.
+
+---
+
+Step 7 — Workload Assessment
+
+The participant completes the planned NASA-TLX workload assessment.
+
+The pilot specifically evaluates whether:
+
+- the assessment can be completed without confusion;
+- the sequence is understandable;
+- the workload assessment creates excessive interruption;
+- the assessment can be integrated consistently into every trial.
+
+---
+
+Step 8 — Debrief
+
+At the end of the pilot, the participant is informed that the session was a pilot evaluation of the research procedure and prototype.
+
+The experimenter records procedural observations separately from participant responses.
 
 ---
 
 7. Pilot Evaluation Dimensions
 
-7.1 Prototype Functionality
+7.1 Technical Reliability
 
-Check:
+Evaluate:
 
-- all screens load;
-- all buttons work;
-- all transitions work;
-- no unintended loops occur;
-- trial completion works;
-- restart behaviour is correct;
-- condition branching works;
-- measurement screens save or record responses correctly.
-
----
+- loading failures;
+- broken interactions;
+- incorrect state transitions;
+- missing screens;
+- incorrect explanation content;
+- navigation failures;
+- inconsistent prototype behaviour.
 
 7.2 Experimental Integrity
 
-Check:
-
-- the same scenario is used where required;
-- the same autonomous response is maintained;
-- only the intended explanation variable changes;
-- explanation content is condition-specific;
-- no condition accidentally reveals another condition;
-- scenario order follows the defined randomization/counterbalancing procedure;
-- measurement order remains consistent.
-
----
-
-7.3 Participant Understanding
-
-Observe whether participants understand:
-
-- what role they are performing;
-- what they are expected to observe;
-- what constitutes an unexpected event;
-- what the explanation communicates;
-- what the comprehension questions ask;
-- what the trust questions ask;
-- how the workload scale should be completed.
-
-Participant questions should be documented rather than silently used to modify the protocol.
-
----
-
-7.4 Timing
-
-Record approximate duration for:
-
-- briefing;
-- practice;
-- each trial;
-- comprehension;
-- trust/experience measurement;
-- workload measurement;
-- transitions;
-- debrief.
-
-The purpose is to determine whether the complete protocol is practically manageable.
-
----
-
-7.5 Accessibility
-
 Evaluate whether:
 
-- text remains readable;
-- controls are sufficiently large;
-- contrast is adequate;
-- information is not communicated through colour alone;
-- important information remains understandable;
-- interaction does not require unnecessary precision;
-- audio/visual presentation does not create avoidable barriers.
+- only the intended explanation variable changes;
+- scenarios remain equivalent across conditions;
+- no additional information unintentionally appears;
+- experimenter intervention is unnecessary;
+- the prototype does not reveal the research hypothesis.
 
-Accessibility modifications must not unintentionally alter the experimental manipulation.
+7.3 Comprehension
 
----
+Evaluate whether participants understand:
 
-7.6 Measurement Feasibility
+- what happened;
+- why the vehicle responded;
+- what the vehicle is currently doing;
+- what action, if any, is expected from the passenger.
 
-Check whether participants can complete:
+7.4 Trust
 
-- comprehension questions;
-- trust/experience items;
-- workload assessment.
+Evaluate whether the trust-rating procedure is:
 
-Identify:
+- understandable;
+- consistently presented;
+- appropriately timed;
+- free from leading language.
 
-- ambiguous wording;
-- repeated questions;
-- response-scale confusion;
-- excessive response burden;
-- technical response problems.
+7.5 Workload
 
-Do not modify measurement items solely because a pilot response appears theoretically inconvenient.
+Evaluate whether the workload measurement can be completed without:
+
+- excessive interruption;
+- confusion;
+- missing responses;
+- inconsistent instructions.
+
+7.6 Accessibility
+
+Check:
+
+- text readability;
+- contrast;
+- touch-target size;
+- visual hierarchy;
+- understandable status communication;
+- non-colour-only communication;
+- clarity of warning states;
+- consistency of icons and labels.
 
 ---
 
 8. Pilot Success Criteria
 
-The study should proceed toward formal data collection only if:
+The prototype will be considered pilot-ready for formal data collection when:
 
-- the complete participant flow can be completed;
-- no unresolved P0 or P1 issue remains;
-- explanation conditions remain experimentally distinct;
-- scenario and vehicle behaviour remain controlled;
-- required measurements can be collected;
-- participants understand the basic procedure;
-- timing is operationally manageable;
-- the experimenter can follow the protocol consistently;
-- data capture is reliable;
-- accessibility problems do not compromise participation;
-- all required study materials are ready.
+1. all experimental scenarios can be completed without critical technical failure;
+2. explanation conditions display correctly;
+3. the no-explanation condition contains no unintended explanatory information;
+4. the autonomous vehicle response remains consistent across conditions;
+5. participant instructions are understandable without substantial experimenter intervention;
+6. comprehension questions are interpretable;
+7. trust and workload measures can be completed consistently;
+8. the data-recording procedure captures all required variables;
+9. no critical accessibility issue prevents task completion;
+10. any identified issue that could affect the independent variable or dependent variables is resolved before formal data collection.
 
 ---
 
-9. Pilot Issue Classification
+9. Issue Classification
 
-Use the existing issue-severity system:
+Pilot observations will be classified as:
 
-Severity| Meaning
-P0| Study cannot proceed
-P1| Major problem threatening experimental integrity or participant procedure
-P2| Moderate problem that should be corrected
-P3| Minor issue or refinement
+Critical
 
-A P0 or P1 issue requires resolution and revalidation before formal data collection.
+An issue that prevents valid execution of the experiment or changes the experimental manipulation.
+
+Action: Resolve before formal data collection and repeat the affected pilot procedure.
+
+Major
+
+An issue that could substantially affect participant understanding, measurement, or consistency.
+
+Action: Resolve before formal data collection and assess whether re-piloting is required.
+
+Minor
+
+An issue that does not materially affect experimental validity but reduces usability or efficiency.
+
+Action: Correct where practical and document the change.
+
+Cosmetic
+
+A visual or presentation issue with no meaningful effect on the experimental procedure.
+
+Action: Correct during normal prototype refinement.
 
 ---
 
 10. Pilot Decision Gate
 
-After the pilot, classify the study as one of:
+After the pilot, the prototype and protocol will be reviewed against the success criteria.
 
-READY
+The possible decisions are:
 
-The protocol and prototype are sufficiently stable for formal data collection.
+Proceed
 
-READY WITH MINOR REVISIONS
+The prototype and procedure are sufficiently stable for formal data collection.
 
-Only P2/P3 issues remain and their resolution does not alter the experimental design.
+Proceed With Minor Revisions
 
-REVISE AND RE-PILOT
+Only non-critical issues are identified and can be corrected without changing the experimental manipulation.
 
-A change affects:
+Revise and Re-Pilot
 
-- experimental conditions;
-- scenario timing;
-- measurement procedure;
-- participant instructions;
-- prototype interaction;
-- data capture;
-- or another research-critical component.
+A technical, procedural, accessibility, or measurement issue could affect experimental validity.
 
-STOP
+Stop and Redesign
 
-A serious issue prevents the study from being conducted with acceptable methodological integrity.
+The pilot reveals a fundamental problem with the experimental design or manipulation that cannot be corrected through minor revision.
 
 ---
 
-11. Pilot Integrity Rule
+11. Research Integrity Rule
 
-Any change that can affect participant behaviour, explanation exposure, measurement, timing, or condition assignment must be documented.
+Pilot observations must not be presented as formal experimental findings.
 
-Do not silently change the protocol between pilot sessions.
+The pilot may establish that:
 
-Every substantive change should be recorded in:
+- a prototype interaction was difficult to understand;
+- a procedure required clarification;
+- a technical issue occurred;
+- a measurement process required refinement.
 
-research/research-log.md
-docs/changelog.md
-design/prototype-version-control.md
+It must not be used to claim that one explanation condition improves trust, comprehension, workload, situation awareness, or any other research outcome.
 
-where applicable.
+Formal claims will only be made from appropriately collected experimental data.
 
 ---
 
-12. Expected Output
+12. Data Protection
 
-Day 26 should produce:
+Participant-identifying information will not be included in the public GitHub repository.
 
-- completed pilot-study plan;
+Research data will be stored separately from the public project documentation.
+
+Only anonymized or aggregated data suitable for research reporting will be included in the final public artifact.
+
+---
+
+13. Day 26 Completion Status
+
+Day 26 establishes the pilot as a controlled validation stage between prototype development and formal empirical evaluation.
+
+The following materials are prepared:
+
+- pilot study plan;
 - pilot checklist;
-- participant instruction draft;
-- pilot observations;
-- updated issue log;
-- timing observations;
-- data-capture verification;
-- decision regarding pilot readiness;
-- documented changes, if any.
+- participant instructions;
+- pilot observation procedure;
+- experimental protocol;
+- measurement sequence;
+- data-integrity requirements.
 
----
-
-13. Boundary
-
-Completion of the pilot does not constitute completion of the main experiment.
-
-The project remains in the preparation stage until the final protocol, prototype, participant materials, measurement instruments, and data-capture process are formally frozen for the main study.
+Day 26 status: COMPLETE — Pilot protocol prepared for execution.
