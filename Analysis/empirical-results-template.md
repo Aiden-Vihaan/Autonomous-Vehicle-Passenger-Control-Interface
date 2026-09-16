@@ -1,7 +1,3 @@
-DAY 41 — EMPIRICAL RESULTS TEMPLATE
-
-File: "analysis/DAY-41-EMPIRICAL-RESULTS-TEMPLATE.md"
-
 Empirical Results — EV-1.0
 
 1. Study Status
@@ -106,7 +102,9 @@ Condition A trials:
 Condition B trials:
 Condition C trials:
 
-Exclusion Summary
+---
+
+6. Exclusion Summary
 
 Exclusion category| Count| Reason
 Technical issue| [actual]| [documented reason]
@@ -118,55 +116,7 @@ Invalid trial| [actual]| [documented reason]
 
 ---
 
-DAY 42 — FINDINGS SYNTHESIS
-
-File: "analysis/DAY-42-FINDINGS-SYNTHESIS.md"
-
-Findings Synthesis
-
-1. Purpose
-
-The purpose of this analysis is to determine whether the observed data provide evidence concerning the effect of passenger-facing explanations on:
-
-- objective understanding,
-- response efficiency,
-- trust,
-- cognitive workload,
-- perceived understanding,
-- task performance.
-
-The analysis does not assume that more explanation is inherently better.
-
----
-
-2. Evidence Hierarchy
-
-Interpret findings in this order:
-
-1. Data quality
-2. Primary comprehension outcome
-3. Secondary outcomes
-4. Statistical evidence
-5. Effect magnitude
-6. Qualitative observations
-7. Cross-measure interpretation
-8. Design implications
-
-A design recommendation should not be based solely on subjective preference when objective comprehension provides contradictory evidence.
-
----
-
-3. Primary Finding
-
-Research question
-
-«How does the presentation of explanations for unexpected autonomous-vehicle behaviour affect passenger understanding, trust, and cognitive workload?»
-
-Primary outcome
-
-"comprehension_correct"
-
-Report
+7. Primary Comprehension Result
 
 Condition A:
 Condition B:
@@ -178,7 +128,58 @@ Effect estimate:
 Confidence interval:
 Interpretation:
 
-Interpretation rule
+---
+
+8. Secondary Results
+
+Response Time
+
+Condition A:
+Condition B:
+Condition C:
+Statistical test:
+Effect:
+Interpretation:
+
+Trust
+
+Condition A:
+Condition B:
+Condition C:
+Statistical test:
+Effect:
+Interpretation:
+
+Workload
+
+Condition A:
+Condition B:
+Condition C:
+Statistical test:
+Effect:
+Interpretation:
+
+Perceived Understanding
+
+Condition A:
+Condition B:
+Condition C:
+Statistical test:
+Effect:
+Interpretation:
+
+Task Success
+
+Condition A:
+Condition B:
+Condition C:
+Observed completion:
+Error rate:
+Interpretation:
+
+---
+
+9. Interpretation Rule
 
 If contextual explanations improve comprehension:
 
@@ -196,7 +197,7 @@ No conclusion should exceed the design and dataset.
 
 ---
 
-4. Trust Interpretation
+10. Trust Interpretation
 
 Trust is treated as a calibration construct.
 
@@ -204,21 +205,15 @@ The analysis therefore asks:
 
 «Did participants understand the vehicle sufficiently to form an appropriate level of trust?»
 
-Rather than:
+rather than:
 
 «Which interface produced the highest trust?»
 
 A high trust score accompanied by poor comprehension should not automatically be interpreted as a positive outcome.
 
-A lower trust score accompanied by improved understanding may represent improved calibration rather than design failure.
-
 ---
 
-5. Workload Interpretation
-
-Explanation effectiveness must be evaluated against cognitive cost.
-
-A useful interpretation matrix is:
+11. Workload Interpretation
 
 Comprehension| Workload| Interpretation
 High| Low| Efficient explanation
@@ -228,9 +223,9 @@ Low| High| Poor information design
 
 ---
 
-6. Objective vs Subjective Understanding
+12. Objective vs Subjective Understanding
 
-Two constructs remain separate:
+Two constructs remain separate.
 
 Objective understanding
 
@@ -240,310 +235,21 @@ Perceived understanding
 
 What the participant believes they understood.
 
-These measures must not be collapsed.
-
-A divergence between the two is a Human Factors finding in itself.
+A divergence between the two is itself a Human Factors finding.
 
 ---
 
-DAY 43 — RQ AND HYPOTHESIS MAPPING
+13. Evidence Boundary
 
-File: "analysis/DAY-43-RQ-HYPOTHESIS-MAPPING.md"
+The original PRD contains product-level success targets.
 
-Research Question and Hypothesis Mapping
-
-RQ1
-
-«How does explanation presentation affect passenger understanding?»
-
-Primary measure: comprehension.
-
-Evidence: objective comprehension performance.
+Those targets are not converted into observed results unless empirical data support them.
 
 ---
 
-RQ2
-
-«Does explanation presence improve understanding compared with no explanation?»
-
-Comparison: A vs B/C.
-
-Interpretation: Based exclusively on observed comprehension data.
-
----
-
-RQ3
-
-«Does explanation specificity affect comprehension and trust?»
-
-Comparison: B vs C.
-
-The purpose is to determine whether additional contextual information produces measurable benefit without assuming that greater information density is preferable.
-
----
-
-RQ4
-
-«How does explanation presentation relate to cognitive workload?»
-
-Measures:
-
-- workload score,
-- response time,
-- interaction errors.
-
----
-
-RQ5
-
-«Is increased trust accompanied by increased understanding?»
-
-This examines the relationship between trust and comprehension.
-
-The project explicitly avoids treating trust as an isolated success metric.
-
----
-
-Hypothesis Register
-
-Hypothesis| Prediction| Evidence| Status
-H1| Explanations improve comprehension| comprehension| [supported/not supported/inconclusive]
-H2| Explanations improve perceived understanding| perceived understanding| [status]
-H3| Contextual explanations improve comprehension over minimal explanations| A/B/C comparison| [status]
-H4| Explanation presentation affects trust| trust score| [status]
-H5| Explanation presentation affects workload| workload| [status]
-H6| Better understanding is associated with better calibrated trust| comprehension + trust| [status]
-
-Decision language
-
-Use:
-
-- Supported
-- Not supported
-- Inconclusive
-- Not tested
-- Exploratory
-
-Avoid:
-
-- proved
-- guaranteed
-- definitively established
-- universally better
-
----
-
-DAY 44 — EVIDENCE TO DESIGN
-
-File: "analysis/DAY-44-EVIDENCE-TO-DESIGN.md"
-
-Evidence-to-Design Synthesis
-
-1. Core Design Question
-
-The central design problem is not:
-
-«“How can the system explain everything?”»
-
-It is:
-
-«“How can the system provide enough information for passengers to understand unexpected behaviour without creating unnecessary cognitive demand?”»
-
----
-
-2. Explanation Integrity Framework
-
-Every explanation should satisfy five requirements.
-
-1. Factuality
-
-The explanation must correspond to the system's actual decision context.
-
-2. Relevance
-
-Only information relevant to the passenger's current situation should be foregrounded.
-
-3. Temporal Coupling
-
-The explanation should appear close enough to the triggering event to preserve the connection between behaviour and explanation.
-
-The original PRD specifies approximately one-second surfacing for decision/explanation events.
-
-4. Passenger Impact
-
-The explanation should communicate what the event means for the passenger.
-
-5. Progressive Disclosure
-
-The primary card should remain concise, with deeper information available on demand.
-
----
-
-3. Passenger Explanation Framework
-
-The final framework is:
-
-EVENT
-  ↓
-CAUSE
-  ↓
-ACTION
-  ↓
-PASSENGER IMPACT
-  ↓
-OPTIONAL DEEPER INFORMATION
-
-Example
-
-Event
-
-Unexpected slowing.
-
-Cause
-
-Pedestrian entering crossing.
-
-Action
-
-Vehicle slows to maintain distance.
-
-Passenger impact
-
-Arrival remains approximately unchanged.
-
-Optional deeper information
-
-Expanded route/perception explanation.
-
----
-
-4. Design Decision Matrix
-
-Evidence question| Design response
-Is understanding improved?| Preserve explanation mechanism
-Does additional detail increase workload?| Reduce foreground density
-Does minimal text adequately explain behaviour?| Prefer concise default
-Does contextual information add useful understanding?| Offer progressive detail
-Does trust diverge from comprehension?| Reconsider trust-oriented copy
-Are safety interactions affected by explanation density?| Preserve safety hierarchy
-Do accessibility modes change comprehension?| Preserve semantic equivalence
-
----
-
-5. Safety Invariant
-
-Explanation content must never compete with safety-critical controls.
-
-The original PRD requires the safety control to remain persistently accessible and prevents critical interactions from depending on time-limited or gesture-only interaction.
-
-Therefore:
-
-SAFETY
-  >
-ACTIVE VEHICLE STATE
-  >
-EXPLANATION
-  >
-SECONDARY INFORMATION
-  >
-ENTERTAINMENT
-
----
-
-DAY 45 — HUMAN FACTORS INTERPRETATION
-
-File: "analysis/DAY-45-HUMAN-FACTORS-INTERPRETATION.md"
-
-Human Factors Interpretation
-
-1. Situation Awareness
-
-Unexpected vehicle behaviour creates an information gap:
-
-Vehicle behaviour
-      ↓
-Passenger notices deviation
-      ↓
-Passenger asks "Why?"
-      ↓
-Interpretation
-      ↓
-Trust / concern / action
-
-The explanation card intervenes between unexpected behaviour and passenger interpretation.
-
----
-
-2. Mental Model Support
-
-The interface is not intended to expose the complete autonomous-driving stack.
-
-Instead, it provides a passenger-appropriate mental model:
-
-What happened?
-Why?
-What is the vehicle doing?
-What does this mean for me?
-
-This avoids overwhelming passengers with raw perception or engineering data.
-
-The PRD similarly specifies abstracted sensor outputs rather than exposing raw LiDAR, camera, or radar feeds.
-
----
-
-3. Cognitive Compatibility
-
-The information architecture follows the passenger's natural questions rather than the internal architecture of the vehicle.
-
-Bad structure:
-
-Sensor → classifier → planner → controller
-
-Passenger-oriented structure:
-
-Situation → reason → action → consequence
-
----
-
-4. Calibrated Trust
-
-The project adopts:
-
-«Understanding before reassurance.»
-
-The system should not use explanation primarily as persuasive language.
-
-The purpose is to give passengers sufficient information to form an appropriately calibrated mental model of the vehicle.
-
----
-
-5. Accessibility
-
-Accessibility is treated as an interaction architecture rather than a visual afterthought.
-
-The PRD requires:
-
-- screen-reader operation,
-- logical focus order,
-- wheelchair-related boarding information,
-- captions and visual equivalents,
-- voice operation,
-- large text,
-- high contrast,
-- simplified cognitive mode.
-
-The final principle is:
-
-«Semantic equivalence across modalities, not identical presentation across modalities.»
-
-A visual explanation may become a spoken explanation, but the underlying information hierarchy must remain equivalent.
-
----
-
-6. Final Human Factors Principle
-
-The final design principle is:
-
-«Explain enough to support understanding, but not so much that the explanation itself becomes the new source of cognitive load.»
-
-This principle connects comprehension, workload, trust, accessibility, and safety into one design framework.
+14. Final Status
+
+Methodology: COMPLETE
+Experimental specification: COMPLETE
+Analysis framework: COMPLETE
+Design interpretation: READY
